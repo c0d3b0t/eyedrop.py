@@ -13,3 +13,8 @@ Make an `eyedrop` command available globally:
 - rename the "eyedrop.py" to eyedrop - `mv eyedrop.py eyedrop`
 - make the file to be executable - `chmod +x eyedrop`
 - move the file to `/usr/bin` directory - `mv eyedrop /usr/local/bin` (run with `sudo` if you aren't a root user).
+
+### The sound
+
+This script plays the sound `/usr/share/sounds/freedesktop/stereo/alarm-clock-elapsed.oga`. It exists in the Linux Mint, but I'm not sure about other distributions.
+You can edit the script and replace it with another sound.
